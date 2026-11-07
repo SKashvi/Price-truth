@@ -1,0 +1,24 @@
+{
+  "name": "price-truth",
+  "version": "0.1.0",
+  "description": "Open dataset of what local services actually cost, collected from real reported prices.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "tsx src/validate.ts",
+    "stats": "tsx src/stats.ts",
+    "build": "tsx src/build.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "tsx": "4.19.4",
+    "typescript": "5.7.3",
+    "vitest": "5.1.0",
+    "zod": "4.6.7"
+  },
+  "private": true,
+  "license": "MIT"
+}
