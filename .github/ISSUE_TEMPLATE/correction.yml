@@ -1,0 +1,43 @@
+name: Price Correction
+description: Dispute or correct a published price record.
+title: "Correction: [record ID]"
+labels: ["correction"]
+body:
+  - type: input
+    id: record-id
+    attributes:
+      label: Record ID
+      description: The ID of the record you are disputing (e.g. rec-001).
+      placeholder: rec-001
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for correction
+      options:
+        - Price is inaccurate
+        - Wrong service type
+        - Wrong area
+        - Contains personal or identifying information
+        - Duplicate record
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >
+        Explain what is wrong and, if possible, what the correct value should be.
+        Do not include personal data, provider names, or business identifiers.
+      placeholder: The price for this record should be around 400, not 800. I had the same service done in the same area around the same time.
+    validations:
+      required: true
+  - type: checkboxes
+    id: no-personal-data
+    attributes:
+      label: Privacy check
+      options:
+        - label: This correction does not contain any personal data, provider names, or business identifiers.
+          required: true

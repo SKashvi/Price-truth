@@ -1,0 +1,189 @@
+{
+  "_synthetic": true,
+  "_description": "Sample data for tests only. These prices are invented, not collected from reality. Do not publish.",
+  "records": [
+    {
+      "id": "sample-001",
+      "serviceType": "plumber-visit",
+      "cityArea": "Hazratganj",
+      "priceInr": 450,
+      "dateOfService": "2024-11-15",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-002",
+      "serviceType": "plumber-visit",
+      "cityArea": "Gomti Nagar",
+      "priceInr": 600,
+      "dateOfService": "2024-11-20",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-003",
+      "serviceType": "plumber-visit",
+      "cityArea": "Aliganj",
+      "priceInr": 500,
+      "dateOfService": "2024-12-01",
+      "sourceType": "operator-collected",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-004",
+      "serviceType": "plumber-visit",
+      "cityArea": "Indira Nagar",
+      "priceInr": 350,
+      "dateOfService": "2024-12-05",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-005",
+      "serviceType": "plumber-visit",
+      "cityArea": "Mahanagar",
+      "priceInr": 550,
+      "dateOfService": "2024-12-10",
+      "sourceType": "published-rate-card",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-006",
+      "serviceType": "electrician-visit",
+      "cityArea": "Hazratganj",
+      "priceInr": 400,
+      "dateOfService": "2024-11-18",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-007",
+      "serviceType": "electrician-visit",
+      "cityArea": "Aminabad",
+      "priceInr": 500,
+      "dateOfService": "2024-11-25",
+      "sourceType": "operator-collected",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-008",
+      "serviceType": "electrician-visit",
+      "cityArea": "Gomti Nagar",
+      "priceInr": 650,
+      "dateOfService": "2024-12-02",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-009",
+      "serviceType": "electrician-visit",
+      "cityArea": "Aliganj",
+      "priceInr": 450,
+      "dateOfService": "2024-12-08",
+      "sourceType": "self-reported",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-010",
+      "serviceType": "electrician-visit",
+      "cityArea": "Indira Nagar",
+      "priceInr": 550,
+      "dateOfService": "2024-12-12",
+      "sourceType": "published-rate-card",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-011",
+      "serviceType": "house-cleaning",
+      "cityArea": "Hazratganj",
+      "priceInr": 1200,
+      "dateOfService": "2024-11-10",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-012",
+      "serviceType": "house-cleaning",
+      "cityArea": "Aliganj",
+      "priceInr": 1000,
+      "dateOfService": "2024-11-22",
+      "sourceType": "operator-collected",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-013",
+      "serviceType": "house-cleaning",
+      "cityArea": "Mahanagar",
+      "priceInr": 1500,
+      "dateOfService": "2024-12-01",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-014",
+      "serviceType": "house-cleaning",
+      "cityArea": "Gomti Nagar",
+      "priceInr": 1100,
+      "dateOfService": "2024-12-06",
+      "sourceType": "self-reported",
+      "confidence": "high",
+      "note": "2BHK deep clean"
+    },
+    {
+      "id": "sample-015",
+      "serviceType": "house-cleaning",
+      "cityArea": "Aminabad",
+      "priceInr": 900,
+      "dateOfService": "2024-12-11",
+      "sourceType": "published-rate-card",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-016",
+      "serviceType": "ac-service",
+      "cityArea": "Indira Nagar",
+      "priceInr": 700,
+      "dateOfService": "2024-11-14",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-017",
+      "serviceType": "ac-service",
+      "cityArea": "Hazratganj",
+      "priceInr": 850,
+      "dateOfService": "2024-12-03",
+      "sourceType": "operator-collected",
+      "confidence": "medium"
+    },
+    {
+      "id": "sample-018",
+      "serviceType": "ac-service",
+      "cityArea": "Aliganj",
+      "priceInr": 600,
+      "dateOfService": "2024-12-09",
+      "sourceType": "self-reported",
+      "confidence": "high",
+      "note": "split AC gas top-up included"
+    },
+    {
+      "id": "sample-019",
+      "serviceType": "pest-control",
+      "cityArea": "Gomti Nagar",
+      "priceInr": 1800,
+      "dateOfService": "2024-11-28",
+      "sourceType": "self-reported",
+      "confidence": "high"
+    },
+    {
+      "id": "sample-020",
+      "serviceType": "pest-control",
+      "cityArea": "Mahanagar",
+      "priceInr": 2000,
+      "dateOfService": "2024-12-07",
+      "sourceType": "published-rate-card",
+      "confidence": "high",
+      "note": "3BHK full treatment"
+    }
+  ]
+}

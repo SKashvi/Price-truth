@@ -7,8 +7,8 @@
 - [ ] Email verification for submitters (without storing email in dataset)
 
 ## Phase 3: Data Expansion
-- [ ] Additional service types (carpenter, painting, washing machine repair)
-- [ ] Additional cities beyond Bangalore
+- [ ] Additional service types (carpenter, painting, washing machine repair — schema ready, awaiting data)
+- [ ] Additional cities beyond Lucknow
 - [ ] Time-series view showing price trends over months
 - [ ] Area-level breakdowns when sample sizes allow
 
@@ -22,7 +22,7 @@
 - [ ] SEO and open graph metadata
 - [ ] WhatsApp/Telegram share formatting
 - [ ] PWA offline support
-- [ ] Regional language support (Kannada, Hindi)
+- [ ] Regional language support (Hindi, Urdu)
 
 ## Technical Debt
 - [ ] CI/CD pipeline (GitHub Actions for validate + build)

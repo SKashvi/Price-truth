@@ -4,7 +4,7 @@ import { PriceRecord, Dataset, containsPersonalData } from "../src/schema.js";
 const validRecord = {
   id: "test-001",
   serviceType: "plumber-visit" as const,
-  cityArea: "Koramangala",
+  cityArea: "Hazratganj",
   priceInr: 500,
   dateOfService: "2024-12-01",
   sourceType: "self-reported" as const,

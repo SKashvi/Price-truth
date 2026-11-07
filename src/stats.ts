@@ -36,6 +36,10 @@ export function computeStats(records: { serviceType: string; priceInr: number; c
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
+  if (records.length === 0) {
+    console.log("No records in data/records.json. Nothing to report.");
+    process.exit(0);
+  }
   const { byService, byArea } = computeStats(records);
 
   console.log("=== By Service Type ===\n");

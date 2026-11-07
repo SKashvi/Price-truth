@@ -1,4 +1,4 @@
-export const CITY = "Bangalore";
+export const CITY = "Lucknow";
 
 export const SERVICE_TYPES = [
   "plumber-visit",
